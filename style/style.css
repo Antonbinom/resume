@@ -34,8 +34,6 @@ p, li {
 	height: auto;
 	margin-right: 20px;
 }
-.about__stack {
-}
 .about__stack-item {
 	display: flex;
 	justify-content: space-between;
@@ -64,8 +62,18 @@ p, li {
 	list-style: none
 }
 .exp__links-list a{
-	color: rgb(0, 0, 0)
+	color: #000000
+}
+.exp__links-list a{
+	color: #000000
+}
+.exp__skills-list li{
+	margin-bottom: 10px;
+	line-height: 140%;
 }
 .exp__job-item {
 	margin-bottom: 10px;
+}
+.exp__job-item p{
+	line-height: 140%;
 }
