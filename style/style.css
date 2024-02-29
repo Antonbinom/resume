@@ -73,8 +73,15 @@ p, li {
 	line-height: 140%;
 }
 .exp__job-item {
-	margin-bottom: 10px;
+	padding-block: 5px;
+	border-top: 1px solid gray;
 }
 .exp__job-item p{
 	line-height: 140%;
+}
+.exp__job-header {
+	display: flex;
+	justify-content: space-between;
+	padding-block: 5px;
+	background-color: #efefef;
 }
